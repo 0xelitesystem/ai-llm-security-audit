@@ -28,6 +28,6 @@ The user supplies input that overrides or contradicts the system prompt's instru
 
 ## Mitigations that don't work alone
 
-- "Tell the model not to follow user instructions" — partially helps, often fails.
-- Keyword blocklists — trivially bypassed by paraphrasing.
-- Asking the model to detect injection in its own output — circular.
+- "Tell the model not to follow user instructions", partially helps, often fails.
+- Keyword blocklists, trivially bypassed by paraphrasing.
+- Asking the model to detect injection in its own output, circular.

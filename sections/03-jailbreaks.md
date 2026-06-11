@@ -1,6 +1,6 @@
 # Jailbreaks (Safety Bypass)
 
-Attempts to get the model to violate its safety policies through framing, persona, or technique. Distinct from prompt injection in that the user is also the attacker — there's no third party being defended against.
+Attempts to get the model to violate its safety policies through framing, persona, or technique. Distinct from prompt injection in that the user is also the attacker, there's no third party being defended against.
 
 ## Common jailbreak patterns
 
@@ -16,7 +16,7 @@ Attempts to get the model to violate its safety policies through framing, person
 
 - Are you using a model with documented safety training (e.g., RLHF, constitutional AI)?
 - Do you have an output safety classifier in addition to the model's own training?
-- Does your evaluation suite include known jailbreak prompts? Update quarterly — techniques evolve.
+- Does your evaluation suite include known jailbreak prompts? Update quarterly, techniques evolve.
 - For consumer products: do you have a human review process for edge cases?
 - Is there a feedback mechanism for users to report safety failures?
 
@@ -29,7 +29,7 @@ Attempts to get the model to violate its safety policies through framing, person
 
 ## Mitigations
 
-- Defense in depth — model safety + input/output classifiers + system-level controls.
+- Defense in depth, model safety + input/output classifiers + system-level controls.
 - Domain restriction: a customer-support model should refuse anything off-topic, which sidesteps most jailbreaks.
 - Logging and monitoring for jailbreak patterns; alert on novel ones.
 - Acknowledging that perfect safety is not achievable. Design the system so a successful jailbreak doesn't enable serious real-world harm.

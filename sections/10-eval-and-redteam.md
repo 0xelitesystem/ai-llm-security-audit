@@ -7,8 +7,8 @@ Security audit is a process, not a one-time check. The model, the prompt, the de
 - **Refusal behavior** on a curated set of prohibited requests.
 - **Jailbreak robustness** against current public jailbreak techniques.
 - **Prompt injection resistance** for direct and indirect cases.
-- **Tool use safety** — agentic scenarios where the model could be manipulated into harm.
-- **Output safety** — does the model emit harmful content unprompted?
+- **Tool use safety**, agentic scenarios where the model could be manipulated into harm.
+- **Output safety**, does the model emit harmful content unprompted?
 - **Hallucination rates** for factual claims.
 - **Bias and fairness** for the deployment domain.
 - **Performance regressions** as prompts and model versions change.
@@ -44,11 +44,11 @@ Security audit is a process, not a one-time check. The model, the prompt, the de
 
 ## Pitfalls
 
-- "We tested 100 prompts and they were fine" — proves nothing if attackers can generate the 101st.
+- "We tested 100 prompts and they were fine", proves nothing if attackers can generate the 101st.
 - Confusing benchmark performance with safety. SOTA on MMLU tells you nothing about jailbreak resistance.
 - Self-evaluation: asking the model to grade its own outputs is unreliable for the cases that matter.
 - Stale evals: techniques from 2023 don't catch 2025 attacks.
 
 ## Closing note
 
-Treat AI security like web application security circa 2005 — the field is young, defenses are incomplete, and the published attacks are a small sample of the working ones. Plan for a steady stream of issues over years, not a final secured state.
+Treat AI security like web application security circa 2005, the field is young, defenses are incomplete, and the published attacks are a small sample of the working ones. Plan for a steady stream of issues over years, not a final secured state.

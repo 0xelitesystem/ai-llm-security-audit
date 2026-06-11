@@ -5,7 +5,7 @@ RAG systems retrieve documents and feed them to the model. They inherit risks fr
 ## Risk surfaces
 
 - **Authorization bypass:** vector store contains documents from many users/tenants. If retrieval doesn't filter by ACL, a low-privilege query can retrieve and surface high-privilege content.
-- **Indirect injection** (see section 02) — retrieved content may contain instructions.
+- **Indirect injection** (see section 02), retrieved content may contain instructions.
 - **Stale data poisoning:** outdated or malicious documents persist in the index. An attacker who once had write access can leave time-bombed instructions.
 - **Embedding inversion:** for some embedding models, embeddings can be partially inverted to reconstruct original text. If your embedding store is compromised, treat it like the underlying data.
 - **PII leakage:** the model may surface sensitive content from retrieved docs in ways the original ACL never anticipated (summarization across documents, inference from patterns).

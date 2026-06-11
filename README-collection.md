@@ -17,6 +17,6 @@ A practical security audit guide for LLM-powered systems. Ten sections covering 
 
 ## How to use
 
-Walk through the sections relevant to your system. Each section has a checklist suitable for a written audit. For systems in production, plan to revisit annually — both threats and mitigations evolve.
+Walk through the sections relevant to your system. Each section has a checklist suitable for a written audit. For systems in production, plan to revisit annually, both threats and mitigations evolve.
 
 This is not a substitute for a model card, a SOC 2 audit, or external red-teaming for high-stakes deployments. It's a working baseline.

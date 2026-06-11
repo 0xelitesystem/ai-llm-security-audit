@@ -32,5 +32,5 @@ Models with tools (file read/write, shell exec, HTTP, code interpreter, email, c
 - Human confirmation for actions with side effects (writes, sends, deletes, payments).
 - Egress restrictions for browsing/networking tools.
 - Output filtering: strip image/markdown URLs from agent responses unless they originate from a trusted set.
-- Distinct trust zones — never put unverified external content in the same context as privileged actions.
+- Distinct trust zones, never put unverified external content in the same context as privileged actions.
 - Audit logs of every tool call, reviewable by humans.

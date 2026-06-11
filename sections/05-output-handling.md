@@ -1,6 +1,6 @@
 # Output Handling
 
-How model output is consumed downstream determines what the model can be used to attack. The model's output is untrusted data — the same scrutiny you apply to user input applies here.
+How model output is consumed downstream determines what the model can be used to attack. The model's output is untrusted data, the same scrutiny you apply to user input applies here.
 
 ## Risk patterns
 

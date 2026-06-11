@@ -6,10 +6,10 @@ Ten sections covering the practical attack surface of LLM-backed applications: p
 
 Every section has four parts:
 
-1. **Risk surfaces** — where the vulnerability lives in a typical LLM stack
-2. **Audit checklist** — questions to ask the team and answers to look for
-3. **Specific tests** — concrete prompts, payloads, or queries to run
-4. **Mitigations** — controls that reduce exposure, ordered by impact
+1. **Risk surfaces**, where the vulnerability lives in a typical LLM stack
+2. **Audit checklist**, questions to ask the team and answers to look for
+3. **Specific tests**, concrete prompts, payloads, or queries to run
+4. **Mitigations**, controls that reduce exposure, ordered by impact
 
 ## Contents
 
@@ -28,7 +28,7 @@ Every section has four parts:
 
 ## Intended use
 
-Use this when you are auditing an LLM application — your own or a vendor's. The checklist questions are written so you can paste them into a security review template; the tests are written so you can run them against a staging environment without setup.
+Use this when you are auditing an LLM application, your own or a vendor's. The checklist questions are written so you can paste them into a security review template; the tests are written so you can run them against a staging environment without setup.
 
 This is not OWASP LLM Top 10 reformatted. It overlaps in topic but is structured for audit work rather than awareness, with specific tests that map to each finding.
 

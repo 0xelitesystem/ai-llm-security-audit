@@ -17,7 +17,7 @@ Hostile instructions arrive through retrieved or referenced content rather than 
 - Any tool that returns external content into the model's context without a sanitization or framing layer.
 - Agent loops where the model can chain `fetch_url → read_email → send_email` without per-step authorization.
 - RAG systems where retrieved chunks are concatenated into the prompt with no provenance markers.
-- White-on-white text, hidden HTML, image alt-text, EXIF data — adversarial content that humans don't notice but the model reads.
+- White-on-white text, hidden HTML, image alt-text, EXIF data, adversarial content that humans don't notice but the model reads.
 - OCR pipelines that feed image text to the model verbatim.
 
 ## Audit checklist
