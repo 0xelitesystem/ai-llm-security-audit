@@ -4,7 +4,7 @@ Models with tools (file read/write, shell exec, HTTP, code interpreter, email, c
 
 ## Patterns
 
-- **Capability escalation via composition:** each tool individually is innocuous; combined, they are dangerous. Read file → send email is exfiltration. Search → execute is RCE.
+- **Capability escalation via composition:** each tool individually is innocuous; combined, they are dangerous. Read file -> send email is exfiltration. Search -> execute is RCE.
 - **Confused deputy:** the agent has higher privileges than the requesting user; user prompts the agent into performing an action the user couldn't perform directly.
 - **Lateral pivot:** agent has credentials to multiple systems; an attacker who compromises one system uses indirect injection to drive the agent toward another.
 - **Resource abuse:** model is convinced to make many expensive API calls, run mining workloads, or saturate downstream services.
